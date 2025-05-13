@@ -29,14 +29,14 @@ function App() {
       <Routes>
         <Route
           path="/signup"
-          element={!authUser ? <SignupPage /> : <Navigate to="/user" />}
+          element={!authUser ? <SignupPage /> : <Navigate to="/" />}
         />
         <Route
           path="/login"
-          element={!authUser ? <LoginPage /> : <Navigate to="/user" />}
+          element={!authUser ? <LoginPage /> : <Navigate to="/" />}
         />
         <Route
-          path="/user"
+          path="/"
           element={authUser ? <HomePage /> : <Navigate to="/signup" />}
         />
       </Routes>
