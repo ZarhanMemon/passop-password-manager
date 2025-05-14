@@ -21,7 +21,7 @@ const PasswordList = () => {
             }
         };
         fetchPasswords();
-    },[fetchPasswords]);
+    },[]);
 
     const handleDelete = async (id) => {
         try {
