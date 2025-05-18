@@ -19,7 +19,30 @@ Pass/Op is a full-stack **Password Manager** built with the **MERN stack**. It a
 
 ## 📸 Preview
 
-Coming Soon (or insert screenshot here)
+### 🖥️ Desktop View
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/63ab19e3-3a62-41cc-b8ba-1c67309ee5d2" width="95%" />
+  <img src="https://github.com/user-attachments/assets/2a6400e0-da67-42eb-a3d7-fdad2c514dd2" width="95%" />
+  <img src="https://github.com/user-attachments/assets/20ce7192-e91c-4598-b276-6059ab048f43" width="95%" />
+  <img src="https://github.com/user-attachments/assets/512a0306-5539-443e-9892-f0beb88502f9" width="95%" />
+  <img src="https://github.com/user-attachments/assets/f6684a93-b352-44ab-82de-c6c7048c512f" width="350" />
+</p>
+
+---
+
+### 📱 Mobile View
+
+<!-- Small preview images in reversed order -->
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/c23e93dd-3261-4b7e-b9f1-653295bb5ccf" width="130" /></td>
+    <td><img src="https://github.com/user-attachments/assets/ffef2b66-e41e-4c79-9b08-b7503c4e148a" width="130" /></td>
+    <td><img src="https://github.com/user-attachments/assets/bca872a6-da0f-48cd-89ab-5e57b155f0c2" width="130" /></td>
+    <td><img src="https://github.com/user-attachments/assets/79bb2013-b9f0-4ee3-b1f5-ec847ade5a88" width="130" /></td>
+  </tr>
+</table>
+
 
 ## ⚙️ Tech Stack
 
@@ -34,18 +57,21 @@ Coming Soon (or insert screenshot here)
 ## 📁 Folder Structure
 ```
 passop/
-├── frontend/
-│ ├── components/
-│ ├── pages/
-│ ├── store/
-│ └── App.jsx
+├── frontend/ # Frontend (React)
+│ ├── components/ # UI components (Navbar, Card, Modal, etc.)
+│ ├── pages/ # Route-based pages (Home, Login, Dashboard)
+│ ├── store/ # Zustand store for state management
+│ ├── lib/ # Utility functions (API, validation)
+│ └── App.jsx # Root React component
 │
-├── backend/
-│ ├── controllers/
-│ ├── routes/
-│ ├── middleware/
-│ ├── models/
-│ └── index.js
+├── backend/ # Backend (Node.js/Express)
+│ ├── controllers/ # Business logic (auth, password actions)
+│ ├── routes/ # API route handlers
+│ ├── middleware/ # Auth middleware (JWT verification)
+│ ├── models/ # Mongoose schemas (User, Password)
+│ └── index.js # Entry point for the backend server
+
+
 ```
 
 ## 🛠️ Getting Started Locally
@@ -70,17 +96,20 @@ npm install
 node index.js
 ```
 
-🤝 Contributing
-Pull requests are welcome. 
-For major changes, open an issue first to discuss what you'd like to change.
+---
 
-📄 License
-MIT License
+***🤝 Contributing***
 
-
-Made with 💙 by @ZarhanMemon
-
+  Pull requests are welcome. 
+  For major changes, open an issue first to discuss what you'd like to change.
 
 ---
 
+***📄 License***
+
+  MIT License
+
+---
+
+Made with 💙 by @ZarhanMemon
 
