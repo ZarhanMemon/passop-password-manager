@@ -32,7 +32,7 @@ Coming Soon (or insert screenshot here)
 | Styling    | Tailwind CSS + DaisyUI                 |
 
 ## 📁 Folder Structure
-
+```
 passop/
 ├── frontend/
 │ ├── components/
@@ -46,7 +46,7 @@ passop/
 │ ├── middleware/
 │ ├── models/
 │ └── index.js
-
+```
 
 ## 🛠️ Getting Started Locally
 
